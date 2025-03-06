@@ -37,7 +37,7 @@ export const Nosproduits = () => {
               className=""
             ></Image>
             <div className="relative right-10 bottom-20 justify-end flex">
-              <button className="p-2 bg-secondary relative md:left-0 left-8 md:top-0 top-3 rounded-full text-white">
+              <button className="p-2 bg-secondary relative md:left-5 left-8 md:top-0 top-3 rounded-full text-white">
                 <ArrowUpRight size={64} className="md:w-full h-full w-[30px] h-[30px]" />
               </button>
             </div>
