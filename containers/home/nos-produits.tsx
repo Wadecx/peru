@@ -9,13 +9,13 @@ export const Nosproduits = () => {
           <span className="text-secondary">- </span>nos produits
         </h2>
 
-        <h2 className="uppercase font-black text-4xl mb-4">
+        <h2 className="uppercase font-black md:text-4xl text-2xl mb-4">
           DES COMBUSTIBLES DE <span className="text-secondary">QUALITÉS</span>
           <br /> POUR TOUS VOS BESOINS !
         </h2>
       </div>
 
-      <div className="grid grid-cols-3 gap-2 ml-12 w-full">
+      <div className="grid md:grid-cols-3 md:gap-2 gap-4 md:ml-12 ml-7 w-full">
         {products.map((carburant, index) => (
           <div
             className="p-4 flex flex-col gap-4 max-h-[515px] shadow-[0px_0px_18px_5px_rgba(0,_0,_0,_0.1)] max-w-[90%] justify-between rounded-3xl"

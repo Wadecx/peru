@@ -13,8 +13,8 @@ export const Question = () => {
   };
 
   return (
-    <section className="flex justify-center relative right-20">
-      <div className="flex">
+    <section className="flex justify-center md:relative right-20">
+      <div className="flex md:flex-row flex-col md:gap-0 gap-10">
         <div className="p-12 flex flex-col rounded-[50px] shadow-[0px_0px_18px_5px_rgba(0,_0,_0,_0.1)]  text-center items-center gap-4 mx-auto max-h-[444px]">
           <Image
             src="/assets/images/home/info.png"
@@ -40,8 +40,8 @@ export const Question = () => {
           </Link>
         </div>
 
-        <div className="flex-1 pl-24 mb-24">
-          <h2 className="font-black text-4xl">
+        <div className="flex-1 md:pl-24 mb-24 max-w-[90%] mx-auto">
+          <h2 className="font-black md:text-4xl text-2xl">
             QUESTIONS FRÉQUENTES SUR
             <br /> <span className="text-secondary-light">NOS SERVICES</span>.
           </h2>

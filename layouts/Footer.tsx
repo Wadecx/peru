@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="max-w-[95%] min-h-[600px] mb-4 p-12 bg-secondary-light text-white mx-auto rounded-3xl flex justify-evenly">
+    <section className="max-w-[95%] min-h-[600px] mb-4 p-12 bg-secondary-light text-white mx-auto rounded-3xl flex justify-evenly md:flex-row flex-col">
       <div className="flex flex-col gap-4 mt-24">
         <h3 className="uppercase text-xl font-black">suivez nos actualités</h3>
         <p className="text-xl">
@@ -11,7 +11,7 @@ const Footer = () => {
           actualités.
         </p>
 
-        <input type="text" name="" id="" placeholder="Votre addresse e-mail " className="w-fit pr-[300px] pl-5 py-3 rounded-xl text-black mb-12"/>
+        <input type="text" name="" id="" placeholder="Votre addresse e-mail " className="w-fit md:pr-[300px] pr-24 pl-5 py-3 rounded-xl text-black mb-12"/>
         <Image src="/assets/icons/peru-blanc.png" alt="" width={250} height={300} className=""></Image>
         <h3 className="font-bold">2025 - Tout droits réservés</h3>
       </div>

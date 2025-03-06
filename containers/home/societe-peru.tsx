@@ -5,18 +5,18 @@ export const SocietePeru = () => {
   return (
     <>
       <section className=" z-[999] bg-primary mb-24 ">
-        <div className="flex items-center md:flex-row">
+        <div className="flex items-center md:flex-row flex-col">
           <div className="md:w-1/2">
             <Image
               src="/assets/images/home/femme_bois.png"
               width="0"
               height="0"
-              className="w-full max-h-[650px] object-contain pl-24"
+              className="w-full max-h-[650px] object-contain md:pl-24 px-12 mb-12"
               alt="Image d'une femme qui travaille avec du pellets"
             ></Image>
           </div>
 
-          <div className="flex-1 flex flex-col gap-10 text-start text-lg relative">
+          <div className="flex-1 flex flex-col gap-10 md:text-start text-lg relative md-w-full w-[90%] text-center md:items-start items-center">
             <p className="">
               Depuis plusieurs générations, la Société Péru Matériaux <br/>accompagne
               particuliers, professionnels et agriculteurs avec <br/> des <span className="font-extrabold">solutions
